@@ -1,0 +1,372 @@
+2019-12-08 14:28:35.171 (17196) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 14:28:35.175 (17196) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 14:28:35.175 (17196) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 14:28:35.271 (17196) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 14:28:35.331 (17196) (INFO) main.<module> -> Training shape: X:(1927, 168, 15) Y:(1927, 15)
+2019-12-08 14:28:35.331 (17196) (INFO) main.<module> -> Validation shape: X:(699, 168, 15) Y:(699, 15)
+2019-12-08 14:28:35.335 (17196) (INFO) main.<module> -> Testing shape: X:(700, 168, 15) Y:(700, 15)
+2019-12-08 14:28:35.335 (17196) (INFO) main.<module> -> Creating model
+2019-12-08 14:28:36.492 (17196) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 14:28:36.492 (17196) (INFO) main.<module> -> Training model ... 
+2019-12-08 14:30:34.50 (17196) (INFO) main.train -> Training time took: 0:01:57.558011
+2019-12-08 14:30:34.50 (17196) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 14:30:39.13 (17196) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 14:30:39.21 (17196) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 14:30:39.37 (17196) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 14:30:39.278 (17196) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 14:30:39.278 (17196) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 14:30:39.290 (17196) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.072774, RSE:1.655280, Correlation:-0.309199
+2019-12-08 14:30:39.290 (17196) (INFO) main.<module> -> Predict training data
+2019-12-08 14:30:42.747 (17196) (INFO) main.<module> -> Predict validation data
+2019-12-08 14:30:43.307 (17196) (INFO) main.<module> -> Predict testing data
+2019-12-08 14:30:43.883 (17196) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 14:30:43.883 (17196) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 14:30:43.883 (17196) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 14:36:10.685 (16160) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 14:36:10.686 (16160) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 14:36:10.686 (16160) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 14:36:10.748 (16160) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 14:36:10.803 (16160) (INFO) main.<module> -> Training shape: X:(1927, 168, 15) Y:(1927, 15)
+2019-12-08 14:36:10.803 (16160) (INFO) main.<module> -> Validation shape: X:(699, 168, 15) Y:(699, 15)
+2019-12-08 14:36:10.803 (16160) (INFO) main.<module> -> Testing shape: X:(700, 168, 15) Y:(700, 15)
+2019-12-08 14:36:10.803 (16160) (INFO) main.<module> -> Creating model
+2019-12-08 14:36:12.42 (16160) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 14:36:12.43 (16160) (INFO) main.<module> -> Training model ... 
+2019-12-08 14:41:10.567 (16160) (INFO) main.train -> Training time took: 0:04:58.524060
+2019-12-08 14:41:10.567 (16160) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 14:41:13.415 (16160) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 14:41:13.416 (16160) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 14:41:13.426 (16160) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 14:41:13.811 (16160) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 14:41:13.812 (16160) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 14:41:13.818 (16160) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.004013, RSE:0.094323, Correlation:0.786978
+2019-12-08 14:41:13.818 (16160) (INFO) main.<module> -> Predict training data
+2019-12-08 14:41:17.66 (16160) (INFO) main.<module> -> Predict validation data
+2019-12-08 14:41:18.337 (16160) (INFO) main.<module> -> Predict testing data
+2019-12-08 14:41:19.62 (16160) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 14:41:19.62 (16160) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 14:41:19.62 (16160) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 14:42:42.4 (9636) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 14:42:42.4 (9636) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 14:42:42.4 (9636) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 14:42:42.52 (9636) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 14:42:42.96 (9636) (INFO) main.<module> -> Training shape: X:(1915, 180, 15) Y:(1915, 15)
+2019-12-08 14:42:42.96 (9636) (INFO) main.<module> -> Validation shape: X:(699, 180, 15) Y:(699, 15)
+2019-12-08 14:42:42.96 (9636) (INFO) main.<module> -> Testing shape: X:(700, 180, 15) Y:(700, 15)
+2019-12-08 14:42:42.96 (9636) (INFO) main.<module> -> Creating model
+2019-12-08 14:42:43.0 (9636) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 14:42:43.0 (9636) (INFO) main.<module> -> Training model ... 
+2019-12-08 14:44:36.89 (9636) (INFO) main.train -> Training time took: 0:01:53.089136
+2019-12-08 14:44:36.90 (9636) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 14:44:39.488 (9636) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 14:44:39.489 (9636) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 14:44:39.524 (9636) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 14:44:40.23 (9636) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 14:44:40.23 (9636) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 14:44:40.28 (9636) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.044520, RSE:0.875827, Correlation:0.306322
+2019-12-08 14:44:40.28 (9636) (INFO) main.<module> -> Predict training data
+2019-12-08 14:44:43.655 (9636) (INFO) main.<module> -> Predict validation data
+2019-12-08 14:44:44.549 (9636) (INFO) main.<module> -> Predict testing data
+2019-12-08 14:44:45.273 (9636) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 14:44:45.274 (9636) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 14:44:45.274 (9636) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 14:45:56.59 (21368) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 14:45:56.60 (21368) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 14:45:56.60 (21368) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 14:45:56.131 (21368) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 14:45:56.226 (21368) (INFO) main.<module> -> Training shape: X:(1915, 180, 15) Y:(1915, 15)
+2019-12-08 14:45:56.226 (21368) (INFO) main.<module> -> Validation shape: X:(699, 180, 15) Y:(699, 15)
+2019-12-08 14:45:56.226 (21368) (INFO) main.<module> -> Testing shape: X:(700, 180, 15) Y:(700, 15)
+2019-12-08 14:45:56.227 (21368) (INFO) main.<module> -> Creating model
+2019-12-08 14:45:57.592 (21368) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 14:45:57.592 (21368) (INFO) main.<module> -> Training model ... 
+2019-12-08 15:01:29.254 (21368) (INFO) main.train -> Training time took: 0:15:31.661179
+2019-12-08 15:01:29.254 (21368) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 15:01:32.902 (21368) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 15:01:32.902 (21368) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 15:01:32.919 (21368) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 15:01:33.345 (21368) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 15:01:33.345 (21368) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 15:01:33.353 (21368) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.008748, RSE:0.212539, Correlation:0.410436
+2019-12-08 15:01:33.353 (21368) (INFO) main.<module> -> Predict training data
+2019-12-08 15:01:38.595 (21368) (INFO) main.<module> -> Predict validation data
+2019-12-08 15:01:39.421 (21368) (INFO) main.<module> -> Predict testing data
+2019-12-08 15:01:40.234 (21368) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 15:01:40.235 (21368) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 15:01:40.235 (21368) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 15:13:07.994 (9064) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:13:07.996 (9064) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:13:07.996 (9064) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:13:08.96 (9064) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:13:08.180 (9064) (INFO) main.<module> -> Training shape: X:(1915, 180, 15) Y:(1915, 15)
+2019-12-08 15:13:08.180 (9064) (INFO) main.<module> -> Validation shape: X:(699, 180, 15) Y:(699, 15)
+2019-12-08 15:13:08.180 (9064) (INFO) main.<module> -> Testing shape: X:(700, 180, 15) Y:(700, 15)
+2019-12-08 15:13:08.180 (9064) (INFO) main.<module> -> Creating model
+2019-12-08 15:13:09.276 (9064) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 15:13:09.277 (9064) (INFO) main.<module> -> Training model ... 
+2019-12-08 15:20:47.988 (9064) (INFO) main.train -> Training time took: 0:07:38.707817
+2019-12-08 15:20:47.988 (9064) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 15:20:51.415 (9064) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 15:20:51.415 (9064) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 15:20:51.443 (9064) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 15:20:51.911 (9064) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 15:20:51.911 (9064) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 15:20:51.915 (9064) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.003656, RSE:0.135692, Correlation:0.649191
+2019-12-08 15:20:51.915 (9064) (INFO) main.<module> -> Predict training data
+2019-12-08 15:20:56.228 (9064) (INFO) main.<module> -> Predict validation data
+2019-12-08 15:20:57.116 (9064) (INFO) main.<module> -> Predict testing data
+2019-12-08 15:20:58.146 (9064) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 15:20:58.146 (9064) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 15:20:58.146 (9064) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 15:22:48.411 (17056) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:22:48.411 (17056) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:22:48.411 (17056) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:22:48.511 (17056) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:22:48.575 (17056) (INFO) main.<module> -> Training shape: X:(1915, 180, 15) Y:(1915, 15)
+2019-12-08 15:22:48.575 (17056) (INFO) main.<module> -> Validation shape: X:(699, 180, 15) Y:(699, 15)
+2019-12-08 15:22:48.575 (17056) (INFO) main.<module> -> Testing shape: X:(700, 180, 15) Y:(700, 15)
+2019-12-08 15:22:48.575 (17056) (INFO) main.<module> -> Creating model
+2019-12-08 15:22:49.583 (17056) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 15:22:49.583 (17056) (INFO) main.<module> -> Training model ... 
+2019-12-08 15:29:45.238 (17056) (INFO) main.train -> Training time took: 0:06:55.653840
+2019-12-08 15:29:45.238 (17056) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 15:29:51.98 (17056) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 15:29:51.99 (17056) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 15:29:51.110 (17056) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 15:29:51.475 (17056) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 15:29:51.475 (17056) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 15:29:51.482 (17056) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.005832, RSE:0.144413, Correlation:0.608986
+2019-12-08 15:29:51.482 (17056) (INFO) main.<module> -> Predict training data
+2019-12-08 15:29:54.894 (17056) (INFO) main.<module> -> Predict validation data
+2019-12-08 15:29:55.485 (17056) (INFO) main.<module> -> Predict testing data
+2019-12-08 15:29:56.56 (17056) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 15:29:56.57 (17056) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 15:29:56.57 (17056) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 15:31:56.479 (3980) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:31:56.480 (3980) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:31:56.480 (3980) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:32:03.332 (3980) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:33:02.148 (9780) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:33:02.149 (9780) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:33:02.149 (9780) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:33:09.661 (9780) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:33:50.467 (6440) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:33:50.468 (6440) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:33:50.468 (6440) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:34:01.592 (6440) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:34:44.137 (11120) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 15:34:44.137 (11120) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 15:34:44.137 (11120) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 15:34:44.220 (11120) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 15:34:44.279 (11120) (INFO) main.<module> -> Training shape: X:(4373, 168, 8) Y:(4373, 8)
+2019-12-08 15:34:44.279 (11120) (INFO) main.<module> -> Validation shape: X:(1518, 168, 8) Y:(1518, 8)
+2019-12-08 15:34:44.279 (11120) (INFO) main.<module> -> Testing shape: X:(1518, 168, 8) Y:(1518, 8)
+2019-12-08 15:34:44.279 (11120) (INFO) main.<module> -> Creating model
+2019-12-08 15:34:45.190 (11120) (INFO) main.<module> -> Model compiled ... No tensorboard visualisation is available
+2019-12-08 15:34:45.190 (11120) (INFO) main.<module> -> Training model ... 
+2019-12-08 15:55:15.396 (11120) (INFO) main.train -> Training time took: 0:20:30.205972
+2019-12-08 15:55:15.396 (11120) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 15:55:15.397 (11120) (WARNING) model_util.SaveModel -> File save/exchange_rate.json already exists. Backing it up to save/exchange_rate20191208.json
+2019-12-08 15:55:15.407 (11120) (WARNING) model_util.SaveModel -> File save/exchange_rate.h5 already exists. Backing it up to save/exchange_rate20191208.h5
+2019-12-08 15:55:15.618 (11120) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 15:55:15.618 (11120) (WARNING) model_util.SaveResults -> File save/exchange_rate.txt already exists. Backing it up to save/exchange_rate20191208.txt
+2019-12-08 15:55:15.627 (11120) (INFO) model_util.SaveHistory ->  Saving history ...
+2019-12-08 15:55:15.630 (11120) (WARNING) model_util.SaveHistory -> File save/exchange_rate_history.csv already exists. Backing it up to save/exchange_rate20191208_history.csv
+2019-12-08 15:55:15.637 (11120) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.015252, RSE:0.221306, Correlation:0.492868
+2019-12-08 15:55:16.938 (11120) (INFO) main.<module> -> Validation on the test set returned: Loss:0.012229, RSE:0.197261, Correlation:0.045217
+2019-12-08 18:37:10.176 (12284) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 18:37:10.176 (12284) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 18:37:10.176 (12284) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 18:37:10.216 (12284) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 18:37:10.244 (12284) (INFO) main.<module> -> Training shape: X:(1915, 180, 9) Y:(1915, 9)
+2019-12-08 18:37:10.244 (12284) (INFO) main.<module> -> Validation shape: X:(699, 180, 9) Y:(699, 9)
+2019-12-08 18:37:10.244 (12284) (INFO) main.<module> -> Testing shape: X:(700, 180, 9) Y:(700, 9)
+2019-12-08 18:37:10.244 (12284) (INFO) main.<module> -> Creating model
+2019-12-08 18:37:11.84 (12284) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 18:37:11.84 (12284) (INFO) main.<module> -> Training model ... 
+2019-12-08 18:41:16.654 (12284) (INFO) main.train -> Training time took: 0:04:05.569592
+2019-12-08 18:41:16.654 (12284) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 18:41:20.615 (12284) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 18:41:20.619 (12284) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 18:41:20.643 (12284) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 18:41:21.103 (12284) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 18:41:21.103 (12284) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 18:41:21.123 (12284) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.013645, RSE:0.323283, Correlation:0.475068
+2019-12-08 18:41:21.123 (12284) (INFO) main.<module> -> Predict training data
+2019-12-08 18:41:25.4 (12284) (INFO) main.<module> -> Predict validation data
+2019-12-08 18:41:25.652 (12284) (INFO) main.<module> -> Predict testing data
+2019-12-08 18:41:26.468 (12284) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 18:41:26.472 (12284) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,9[. Setting it to 0
+2019-12-08 18:41:26.472 (12284) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 18:41:26.472 (12284) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 18:43:29.203 (22340) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 18:43:29.203 (22340) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 18:43:29.203 (22340) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 18:43:29.239 (22340) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 18:43:29.275 (22340) (INFO) main.<module> -> Training shape: X:(1915, 180, 9) Y:(1915, 9)
+2019-12-08 18:43:29.275 (22340) (INFO) main.<module> -> Validation shape: X:(699, 180, 9) Y:(699, 9)
+2019-12-08 18:43:29.275 (22340) (INFO) main.<module> -> Testing shape: X:(700, 180, 9) Y:(700, 9)
+2019-12-08 18:43:29.275 (22340) (INFO) main.<module> -> Creating model
+2019-12-08 18:43:30.201 (22340) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 18:43:30.201 (22340) (INFO) main.<module> -> Training model ... 
+2019-12-08 18:50:00.56 (22340) (INFO) main.train -> Training time took: 0:06:29.854875
+2019-12-08 18:50:00.56 (22340) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 18:50:10.521 (22340) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 18:50:10.525 (22340) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 18:50:10.541 (22340) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 18:50:10.954 (22340) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 18:50:10.954 (22340) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 18:50:10.962 (22340) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.005288, RSE:0.118332, Correlation:0.918493
+2019-12-08 18:50:10.962 (22340) (INFO) main.<module> -> Predict training data
+2019-12-08 18:50:14.599 (22340) (INFO) main.<module> -> Predict validation data
+2019-12-08 18:50:15.275 (22340) (INFO) main.<module> -> Predict testing data
+2019-12-08 18:50:15.928 (22340) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 18:50:15.928 (22340) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,9[. Setting it to 0
+2019-12-08 18:50:15.928 (22340) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 18:50:15.928 (22340) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 19:29:30.737 (10068) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 19:29:30.738 (10068) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 19:29:30.738 (10068) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 19:29:30.801 (10068) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 19:29:30.848 (10068) (INFO) main.<module> -> Training shape: X:(1915, 180, 9) Y:(1915, 9)
+2019-12-08 19:29:30.848 (10068) (INFO) main.<module> -> Validation shape: X:(699, 180, 9) Y:(699, 9)
+2019-12-08 19:29:30.848 (10068) (INFO) main.<module> -> Testing shape: X:(700, 180, 9) Y:(700, 9)
+2019-12-08 19:29:30.848 (10068) (INFO) main.<module> -> Creating model
+2019-12-08 19:29:32.342 (10068) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 19:29:32.343 (10068) (INFO) main.<module> -> Training model ... 
+2019-12-08 19:30:42.481 (10068) (INFO) main.train -> Training time took: 0:01:10.137700
+2019-12-08 19:30:42.481 (10068) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 19:30:45.125 (10068) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 19:30:45.125 (10068) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 19:30:45.135 (10068) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 19:30:45.513 (10068) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 19:30:45.514 (10068) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 19:30:45.523 (10068) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.013875, RSE:0.311513, Correlation:0.577899
+2019-12-08 19:30:45.523 (10068) (INFO) main.<module> -> Predict training data
+2019-12-08 19:30:48.781 (10068) (INFO) main.<module> -> Predict validation data
+2019-12-08 19:30:49.749 (10068) (INFO) main.<module> -> Predict testing data
+2019-12-08 19:30:50.499 (10068) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 19:30:50.499 (10068) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,9[. Setting it to 0
+2019-12-08 19:31:06.909 (12172) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 19:31:06.910 (12172) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 19:31:06.910 (12172) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 19:31:06.963 (12172) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 19:31:07.1 (12172) (INFO) main.<module> -> Training shape: X:(1915, 180, 9) Y:(1915, 9)
+2019-12-08 19:31:07.1 (12172) (INFO) main.<module> -> Validation shape: X:(699, 180, 9) Y:(699, 9)
+2019-12-08 19:31:07.1 (12172) (INFO) main.<module> -> Testing shape: X:(700, 180, 9) Y:(700, 9)
+2019-12-08 19:31:07.1 (12172) (INFO) main.<module> -> Creating model
+2019-12-08 19:31:08.45 (12172) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 19:31:08.45 (12172) (INFO) main.<module> -> Training model ... 
+2019-12-08 19:31:53.286 (12172) (INFO) main.train -> Training time took: 0:00:45.241229
+2019-12-08 19:31:53.287 (12172) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 19:31:56.555 (12172) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 19:31:56.556 (12172) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 19:31:56.568 (12172) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 19:31:56.973 (12172) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 19:31:56.973 (12172) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 19:31:56.980 (12172) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.033376, RSE:0.759397, Correlation:0.317828
+2019-12-08 19:31:56.980 (12172) (INFO) main.<module> -> Predict training data
+2019-12-08 19:31:59.588 (12172) (INFO) main.<module> -> Predict validation data
+2019-12-08 19:32:00.139 (12172) (INFO) main.<module> -> Predict testing data
+2019-12-08 19:32:00.667 (12172) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 19:32:00.668 (12172) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 19:32:00.668 (12172) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 19:32:28.642 (15724) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 19:32:28.643 (15724) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 19:32:28.643 (15724) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 19:32:28.719 (15724) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 19:32:28.753 (15724) (INFO) main.<module> -> Training shape: X:(1915, 180, 9) Y:(1915, 9)
+2019-12-08 19:32:28.753 (15724) (INFO) main.<module> -> Validation shape: X:(699, 180, 9) Y:(699, 9)
+2019-12-08 19:32:28.753 (15724) (INFO) main.<module> -> Testing shape: X:(700, 180, 9) Y:(700, 9)
+2019-12-08 19:32:28.753 (15724) (INFO) main.<module> -> Creating model
+2019-12-08 19:32:29.963 (15724) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 19:32:29.964 (15724) (INFO) main.<module> -> Training model ... 
+2019-12-08 19:44:21.946 (15724) (INFO) main.train -> Training time took: 0:11:51.975617
+2019-12-08 19:44:21.953 (15724) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 19:44:27.935 (15724) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 19:44:27.936 (15724) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 19:44:27.967 (15724) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 19:44:28.413 (15724) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 19:44:28.414 (15724) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 19:44:28.420 (15724) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.002379, RSE:0.075091, Correlation:0.871046
+2019-12-08 19:44:28.420 (15724) (INFO) main.<module> -> Predict training data
+2019-12-08 19:44:31.862 (15724) (INFO) main.<module> -> Predict validation data
+2019-12-08 19:44:32.660 (15724) (INFO) main.<module> -> Predict testing data
+2019-12-08 19:44:33.430 (15724) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 19:44:33.430 (15724) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 19:44:33.430 (15724) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 20:22:29.364 (22948) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 20:22:29.394 (22948) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 20:22:29.401 (22948) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 20:22:29.537 (22948) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 20:22:29.581 (22948) (INFO) main.<module> -> Training shape: X:(1929, 166, 9) Y:(1929, 9)
+2019-12-08 20:22:29.581 (22948) (INFO) main.<module> -> Validation shape: X:(699, 166, 9) Y:(699, 9)
+2019-12-08 20:22:29.581 (22948) (INFO) main.<module> -> Testing shape: X:(700, 166, 9) Y:(700, 9)
+2019-12-08 20:22:29.581 (22948) (INFO) main.<module> -> Creating model
+2019-12-08 20:22:30.749 (22948) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 20:22:30.749 (22948) (INFO) main.<module> -> Training model ... 
+2019-12-08 20:37:25.93 (22948) (INFO) main.train -> Training time took: 0:14:54.343449
+2019-12-08 20:37:25.93 (22948) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 20:37:54.112 (22948) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 20:37:54.114 (22948) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 20:37:54.120 (22948) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 20:37:54.439 (22948) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 20:37:54.442 (22948) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 20:37:54.451 (22948) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.007123, RSE:0.242714, Correlation:0.423487
+2019-12-08 20:37:54.452 (22948) (INFO) main.<module> -> Predict training data
+2019-12-08 20:37:57.664 (22948) (INFO) main.<module> -> Predict validation data
+2019-12-08 20:37:58.350 (22948) (INFO) main.<module> -> Predict testing data
+2019-12-08 20:37:59.13 (22948) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 20:37:59.13 (22948) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,9[. Setting it to 0
+2019-12-08 20:37:59.13 (22948) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 20:37:59.13 (22948) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 20:41:29.101 (22828) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 20:41:29.102 (22828) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 20:41:29.102 (22828) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 20:41:29.173 (22828) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 20:41:29.223 (22828) (INFO) main.<module> -> Training shape: X:(1929, 166, 14) Y:(1929, 14)
+2019-12-08 20:41:29.223 (22828) (INFO) main.<module> -> Validation shape: X:(699, 166, 14) Y:(699, 14)
+2019-12-08 20:41:29.223 (22828) (INFO) main.<module> -> Testing shape: X:(700, 166, 14) Y:(700, 14)
+2019-12-08 20:41:29.223 (22828) (INFO) main.<module> -> Creating model
+2019-12-08 20:41:30.153 (22828) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 20:41:30.153 (22828) (INFO) main.<module> -> Training model ... 
+2019-12-08 20:53:14.125 (22828) (INFO) main.train -> Training time took: 0:11:43.971731
+2019-12-08 20:53:14.126 (22828) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 20:54:08.692 (22828) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 20:54:08.693 (22828) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 20:54:08.707 (22828) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 20:54:09.156 (22828) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 20:54:09.156 (22828) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 20:54:09.164 (22828) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.018634, RSE:0.256778, Correlation:0.870821
+2019-12-08 20:54:09.165 (22828) (INFO) main.<module> -> Predict training data
+2019-12-08 20:54:12.689 (22828) (INFO) main.<module> -> Predict validation data
+2019-12-08 20:54:13.617 (22828) (INFO) main.<module> -> Predict testing data
+2019-12-08 20:54:14.419 (22828) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 20:54:14.420 (22828) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,14[. Setting it to 0
+2019-12-08 20:54:14.420 (22828) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 20:54:14.421 (22828) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
+2019-12-08 20:58:00.732 (22556) (INFO) main.<module> -> Python version: 3.6.7 (default, Dec  6 2019, 07:03:06) [MSC v.1900 64 bit (AMD64)]
+2019-12-08 20:58:00.733 (22556) (INFO) main.<module> -> Tensorflow version: 1.11.0
+2019-12-08 20:58:00.733 (22556) (INFO) main.<module> -> Keras version: 2.1.6-tf ... Using tensorflow embedded keras
+2019-12-08 20:58:00.788 (22556) (INFO) lstnet_datautil.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2019-12-08 20:58:00.830 (22556) (INFO) main.<module> -> Training shape: X:(1929, 166, 14) Y:(1929, 14)
+2019-12-08 20:58:00.830 (22556) (INFO) main.<module> -> Validation shape: X:(699, 166, 14) Y:(699, 14)
+2019-12-08 20:58:00.830 (22556) (INFO) main.<module> -> Testing shape: X:(700, 166, 14) Y:(700, 14)
+2019-12-08 20:58:00.830 (22556) (INFO) main.<module> -> Creating model
+2019-12-08 20:58:01.645 (22556) (INFO) main.<module> -> Model compiled ... Open tensorboard in order to visualise it!
+2019-12-08 20:58:01.645 (22556) (INFO) main.<module> -> Training model ... 
+2019-12-08 21:10:47.508 (22556) (INFO) main.train -> Training time took: 0:12:45.861846
+2019-12-08 21:10:47.508 (22556) (INFO) lstnet_plot.PlotHistory -> Plotting history ...
+2019-12-08 21:10:53.78 (22556) (INFO) model_util.SaveModel -> Saving model and weights ...
+2019-12-08 21:10:53.79 (22556) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.json already exists. Backing it up to save//inpc//lstnet_save20191208.json
+2019-12-08 21:10:53.92 (22556) (WARNING) model_util.SaveModel -> File save//inpc//lstnet_save.h5 already exists. Backing it up to save//inpc//lstnet_save20191208.h5
+2019-12-08 21:10:53.484 (22556) (INFO) model_util.SaveResults -> Saving results ...
+2019-12-08 21:10:53.485 (22556) (WARNING) model_util.SaveResults -> File save//inpc//lstnet_save.txt already exists. Backing it up to save//inpc//lstnet_save20191208.txt
+2019-12-08 21:10:53.492 (22556) (INFO) main.<module> -> Validation on the validation set returned: Loss:0.051321, RSE:0.808608, Correlation:-0.319639
+2019-12-08 21:10:53.492 (22556) (INFO) main.<module> -> Predict training data
+2019-12-08 21:10:57.63 (22556) (INFO) main.<module> -> Predict validation data
+2019-12-08 21:10:57.892 (22556) (INFO) main.<module> -> Predict testing data
+2019-12-08 21:10:58.535 (22556) (INFO) lstnet_plot.PlotPrediction -> Plotting Prediction ...
+2019-12-08 21:10:58.535 (22556) (WARNING) lstnet_plot.PlotPrediction -> The series to plot must be an integer in the range [0,14[. Setting it to 0
+2019-12-08 21:10:58.536 (22556) (WARNING) lstnet_plot.PlotPrediction -> start must be an integer less than 3496. Setting it to 0
+2019-12-08 21:10:58.536 (22556) (WARNING) lstnet_plot.PlotPrediction -> end must be an integer in the range ]0,3496[. Setting it to 3495
