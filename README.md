@@ -1,12 +1,23 @@
 # LSTNet
 Implementation de __*Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks*__ paper https://arxiv.org/pdf/1703.07015.pdf
 
-
 ## Usage
 ### Training
 Los parámetros utilizados para el entrenamiento y predicción se describen en el siguiente archivo:
 - inpc.sh
 
+## Environment
+### Primary environment
+The results were obtained on a system with the following versions:
+- Python 3.6.8
+- Tensorflow 1.11.0
+- Keras 2.1.6-tf  
+
+### TensorFlow 2.0 Ready
+The model has also been tested on TF 2.0 alpha version:
+- Python 3.6.7
+- Tensorflow 2.0.0-alpha0
+- Keras 2.2.4-tf
 
 ### Running Options
 The following are the parameters that the python script takes along with their description:
@@ -50,16 +61,3 @@ The following are the parameters that the python script takes along with their d
 | --debuglevel      |20                  |Logging debug level|
 
 
-
-## Environment
-### Primary environment
-The results were obtained on a system with the following versions:
-- Python 3.6.8
-- Tensorflow 1.11.0
-- Keras 2.1.6-tf  
-
-### TensorFlow 2.0 Ready
-The model has also been tested on TF 2.0 alpha version:
-- Python 3.6.7
-- Tensorflow 2.0.0-alpha0
-- Keras 2.2.4-tf
