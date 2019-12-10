@@ -60,4 +60,3 @@ The following are the parameters that the python script takes along with their d
 | --logfilename     |log/lstnet          |Full path of the logging file|
 | --debuglevel      |20                  |Logging debug level|
 
-
