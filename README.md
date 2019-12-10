@@ -1,5 +1,5 @@
 # LSTNet
-Implementation de __*Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks*__ paper https://arxiv.org/pdf/1703.07015.pdf
+Implementación de __*Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks*__ https://arxiv.org/pdf/1703.07015.pdf
 
 ## Usage
 ### Training
