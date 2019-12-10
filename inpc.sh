@@ -1,0 +1,1 @@
+python main.py --horizon=3 --data="data//inpc.csv" --CNNFilters=50 --CNNKernel=6 --window=166 --optimizer="Adam" --batchsize=64 --GRUUnits=50 --skip=24 --epochs=50 --dropout=0.1 --save="save//inpc//lstnet_save" --logfilename="log//lstnet" --debuglevel=20 --plot --predict="all" --tensorboard="logs_lstnet//" --series-to-plot=0
